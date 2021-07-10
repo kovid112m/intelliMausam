@@ -1,6 +1,6 @@
 on:
-  types:
-     issues: 
+  issues:
+     types: 
          - labeled
 name: Weekly Issue Closure
 jobs:
