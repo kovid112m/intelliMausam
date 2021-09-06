@@ -11,7 +11,7 @@ function Forcast(props) {
   const name = props.name;
 
   const search = (city) => {
-    axioss
+    axios
       .get(
         `${apiKeys.base}weather?q=${
           city != "[object Object]" ? city : query
