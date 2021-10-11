@@ -17,13 +17,13 @@ function Team(props){
 							<h4>IoT Developer</h4>
 							<p>BTCSE-D<br/>180102203<br/>1000010693<br/></p>
 							<div>
-							<a href="https://github.com/EliteWarrior315/">
+							<a href="https://github.com/EliteWarrior315/" target="_blank" rel="noopener noreferrer">
 							<FontAwesomeIcon icon={['fab', 'github']} className="team-icon" size="2x" color="white"/>
 							</a>
-							<a href="https://www.linkedin.com/in/bhaveshsuneja/">
+							<a href="https://www.linkedin.com/in/bhaveshsuneja/" target="_blank" rel="noopener noreferrer">
     						<FontAwesomeIcon icon={['fab', 'linkedin']} className="team-icon" size="2x" color="#0e76a8"/>
 							</a>
-							<a href="https://twitter.com/bhavesh_suneja/">
+							<a href="https://twitter.com/bhavesh_suneja/" target="_blank" rel="noopener noreferrer">
 							<FontAwesomeIcon icon={['fab', 'twitter']}  className="team-icon" size="2x" color="#1da1f2"/>
 							</a>
 							</div>
@@ -38,13 +38,13 @@ function Team(props){
 							<h4>ML Engineer</h4>
 							<p>BTCSE-D<br/>180102253<br/>1000011512<br/></p>
 							<div>
-							<a href="https://github.com/kovid112m/">
+							<a href="https://github.com/kovid112m/" target="_blank" rel="noopener noreferrer">
 							<FontAwesomeIcon icon={['fab', 'github']} className="team-icon" size="2x" color="white"/>
 							</a>
-							<a href="https://www.linkedin.com/in/kovidsharma112/">
+							<a href="https://www.linkedin.com/in/kovidsharma112/" target="_blank" rel="noopener noreferrer">
     						<FontAwesomeIcon icon={['fab', 'linkedin']} className="team-icon" size="2x" color="#0e76a8"/>
 							</a>
-							<a href="mailto:kovidsharma1862000@gmail.com">
+							<a href="mailto:kovidsharma1862000@gmail.com" target="_blank" rel="noopener noreferrer">
     						<FontAwesomeIcon icon={faEnvelope}  className="team-icon" size="2x" color="#ffa700"/>
 							</a>
 							</div>
@@ -59,13 +59,13 @@ function Team(props){
 							<h4>Backend Developer</h4>
 							<p>BTCSE-D<br/>180102233<br/>1000010732<br/></p>
 							<div>
-							<a href="https://github.com/rajatsemwal/">
+							<a href="https://github.com/rajatsemwal/"target="_blank" rel="noopener noreferrer">
 							<FontAwesomeIcon icon={['fab', 'github']} className="team-icon" size="2x" color="white"/>
 							</a>
-							<a href="https://www.linkedin.com/in/rajatsemwal/">
+							<a href="https://www.linkedin.com/in/rajatsemwal/"target="_blank" rel="noopener noreferrer">
     						<FontAwesomeIcon icon={['fab', 'linkedin']} className="team-icon" size="2x" color="#0e76a8"/>
 							</a>
-							<a href="https://instagram.com/skadoosh.03/">
+							<a href="https://instagram.com/skadoosh.03/" target="_blank" rel="noopener noreferrer">
 							<FontAwesomeIcon icon={['fab', 'instagram']} className="team-icon" size="2x" color="#C13584"/>
 							</a>
 							</div>
@@ -80,13 +80,13 @@ function Team(props){
 							<h4>Frontend Developer</h4>
 							<p>BTCSE-D<br/>180102220<br/>1000010546<br/></p>
 							<div>
-							<a href="https://github.com/Shobhitjain123/">
+							<a href="https://github.com/Shobhitjain123/" target="_blank" rel="noopener noreferrer">
 							<FontAwesomeIcon icon={['fab', 'github']} className="team-icon" size="2x" color="white"/>
 							</a>
-							<a href="https://www.linkedin.com/in/shobhit-jain-530a42174//">
+							<a href="https://www.linkedin.com/in/shobhit-jain-530a42174//" target="_blank" rel="noopener noreferrer">
     						<FontAwesomeIcon icon={['fab', 'linkedin']} className="team-icon" size="2x" color="#0e76a8"/>
 							</a>
-							<a href="https://www.facebook.com/shobhit.jain.716/">
+							<a href="https://www.facebook.com/shobhit.jain.716/" target="_blank" rel="noopener noreferrer">
 							<FontAwesomeIcon icon={['fab', 'facebook']} className="team-icon" size="2x" color="#4267B2"/>
 							</a>
 							</div>
