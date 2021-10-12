@@ -11,7 +11,7 @@ function Navigation(props) {
   {console.log(props)}
         <img
           alt=""
-          src="/logo192.png"
+          src={process.env.PUBLIC_URL + "/logo192.png"}
           width="30"
           height="30"
           className="d-inline-block align-top"
