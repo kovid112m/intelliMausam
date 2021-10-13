@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08d82b6a0ddb3f677b85227f2be99c74",
+    "revision": "a29364a94c218b23cdabd762e7dc10f8",
     "url": "/intelliMausam/index.html"
   },
   {
-    "revision": "1605da5305c19dd34fac",
+    "revision": "ed47a7ddb2efe8b0c090",
     "url": "/intelliMausam/static/css/main.cebea5e8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/intelliMausam/static/js/2.d5603c2f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1605da5305c19dd34fac",
-    "url": "/intelliMausam/static/js/main.655b93c6.chunk.js"
+    "revision": "ed47a7ddb2efe8b0c090",
+    "url": "/intelliMausam/static/js/main.43420673.chunk.js"
   },
   {
     "revision": "4af920a2387f860cad5f",
