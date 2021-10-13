@@ -7,6 +7,12 @@
 
 /*-- Reset Code --*/
 
+:root{
+  --bg:rgba(0, 0, 0, 0.68);
+  --rad: 10px;
+  --blur: blur(6px);
+}
+
 html,
 body,
 div,
@@ -227,7 +233,9 @@ h1 {
   width: 65%;
   height: 80vh;
   margin: 50px auto;
-  background-color: rgba(0, 0, 0, 0.73);
+  background-color: var(--bg);
+  backdrop-filter: var(--blur);
+  border-radius: var(--rad);
 }
 
 .city {
@@ -235,6 +243,7 @@ h1 {
   height: 100%;
   float: left;
   background: url("./Images/city.jpg");
+  border-radius: var(--rad);
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
@@ -396,7 +405,7 @@ div#txt {
 }
 
 .project-about{
-  background-color: rgba(0, 0, 0, 0.79);
+  background-color: var(--bg);
   height: 400px;
   margin-bottom: 50px;
   margin-top: 25px;
@@ -408,11 +417,13 @@ div#txt {
   justify-content: center;
   float: left;
   color:antiquewhite; 
-  background-color: rgba(0, 0, 0, 0.79);
+  background-color: var(--bg);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.75);
   margin: 30px 10px ;
   height: fit-content;
   width: fit-content;
+  border-radius: var(--rad);
+  backdrop-filter: var(--blur);
 }
 
 .member a{
@@ -461,6 +472,8 @@ div#txt {
   font-size: 20px;
   font-family:'Courier New', Courier, monospace;
   color: white;
+  border-radius: var(--rad);
+  backdrop-filter: var(--blur);
 
 }
 
@@ -683,7 +696,9 @@ div#txt {
     display: none;
   }
   .today-weather {
-    background-color: rgba(0, 0, 0, 0.73);
+    background-color: var(--bg);
+    border-radius: var(--rad);
+    backdrop-filter: var(--blur);
     margin-top: 22px;
     padding: 25px 0px;
   }
