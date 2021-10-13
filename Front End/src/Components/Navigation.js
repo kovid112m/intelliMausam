@@ -20,7 +20,7 @@ function Navigation(props) {
       </Navbar.Brand>
       <Nav className="ml-auto">
         <Nav.Link href={props.location.pathname === "/about" ? "/" : "/about"} style={ {color: `${
-                  props.location.pathname === "/about" ? "white" : "grey"
+                  props.location.pathname === "/about" ? "white" : "#d3d3d3"
                 }`, font: "inherit"}}>{props.location.pathname === "/about" ? "Go Back" : "About Us"}</Nav.Link>
         </Nav>
   </Container>
