@@ -15,9 +15,9 @@ function App() {
       <Router>
         <Navigation />
         <Switch>
-          <Route path="/about" exact component={() => <Team />} />    
-          <Route path="/" exact component={() => <div className="container1"><Weather /></div>} />
-          <Redirect fromn='*' to='/' />
+          <Route path="/about" component={() => <Team />} />    
+          <Route path="/" component={() => <div className="container1"><Weather /></div>} />
+          <Redirect from='*' to='/' />
         </Switch>
       </Router>
     </React.Fragment>

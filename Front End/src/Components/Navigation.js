@@ -7,8 +7,7 @@ function Navigation(props) {
   return (
   <Navbar expand="md" fixed="sticky">
   <Container>
-  <Navbar.Brand  href={props.location.pathname !== "/" ? "/" :""} style={{color:"white"}}>
-  {console.log(props)}
+  <Navbar.Brand  href={props.location.pathname !== "/" ? "/" :"/"} style={{color:"white"}}>
         <img
           alt=""
           src={process.env.PUBLIC_URL + "/logo192.png"}
@@ -19,7 +18,7 @@ function Navigation(props) {
       intelliMausasm
       </Navbar.Brand>
       <Nav className="ml-auto">
-        <Nav.Link href={props.location.pathname === "/about" ? "/" : "/about"} style={ {color: `${
+        <Nav.Link href={props.location.pathname === "/about" ? "/" : "#/about"} style={ {color: `${
                   props.location.pathname === "/about" ? "white" : "#d3d3d3"
                 }`, font: "inherit"}}>{props.location.pathname === "/about" ? "Go Back" : "About Us"}</Nav.Link>
         </Nav>
