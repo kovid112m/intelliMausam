@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "caae29587c95bf9d4db09ee96b8531a3",
+    "revision": "14d7634602acab051be985057fbd3527",
     "url": "/intelliMausam/index.html"
   },
   {
-    "revision": "4d2790f8df374f2dcdc9",
-    "url": "/intelliMausam/static/css/main.a57c0c25.chunk.css"
+    "revision": "fc2a4e3941b12d94aaf1",
+    "url": "/intelliMausam/static/css/main.cebea5e8.chunk.css"
   },
   {
-    "revision": "d76291c6a15d70b70a85",
-    "url": "/intelliMausam/static/js/2.2a8350b0.chunk.js"
+    "revision": "20378601a40ce7d17a34",
+    "url": "/intelliMausam/static/js/2.04c2a72b.chunk.js"
   },
   {
     "revision": "2f5ef2b2edf44872f1ff4077e728125f",
-    "url": "/intelliMausam/static/js/2.2a8350b0.chunk.js.LICENSE.txt"
+    "url": "/intelliMausam/static/js/2.04c2a72b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4d2790f8df374f2dcdc9",
-    "url": "/intelliMausam/static/js/main.8c57c22b.chunk.js"
+    "revision": "fc2a4e3941b12d94aaf1",
+    "url": "/intelliMausam/static/js/main.3e6ed900.chunk.js"
   },
   {
     "revision": "4af920a2387f860cad5f",
