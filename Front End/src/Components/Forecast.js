@@ -37,6 +37,12 @@ function Forecast(props) {
             <div>
               {" "}
               
+              <li id="small-temp">
+              Temperature{" "}
+                <span className="temp">
+                  {Math.round(props.weather.live_data.Temperature)}&deg; C
+                </span>
+              </li>
               <li>
               Altitude{" "}
                 <span className="temp">
@@ -52,7 +58,7 @@ function Forecast(props) {
               <li>
                 Pressure{" "}
                 <span className="temp">
-                  {Math.round(props.weather.live_data.Pressure)} hpa
+                  {Math.round(props.weather.live_data.Pressure)} hPa
                 </span>
               </li>
             </div>

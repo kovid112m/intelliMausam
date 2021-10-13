@@ -187,7 +187,7 @@ class Weather extends React.Component {
                 </div>
                 <div className="current-date">{dateBuilder(new Date())}</div>
               </div>
-              <div className="temperature">
+              <div className="temperature" id="big-temp">
                 <p>
                   {this.state.temperatureC}°<span>C</span>
                 </p>

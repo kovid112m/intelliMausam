@@ -308,6 +308,9 @@ div#txt {
   font-size: 80px;
   font-weight: 100;
   margin: 0 40px;
+  position: relative;
+  top: -20px;
+  right: -28px;
 }
 
 .temperature p span {
@@ -444,7 +447,6 @@ div#txt {
   font-size: 21.5px;
   padding: 10px;
   margin: 5px;
-  /* text-decoration: 2px underline #eee; */
 }
 
 .member p{
@@ -469,12 +471,15 @@ div#txt {
 .project-about{
   width: fit-content;
   height: fit-content;
-  font-size: 20px;
-  font-family:'Courier New', Courier, monospace;
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
   color: white;
   border-radius: var(--rad);
   backdrop-filter: var(--blur);
+}
 
+#small-temp{
+  display: none;
 }
 
 .project-about div{
@@ -610,6 +615,13 @@ div#txt {
     line-height: 30px;
     font-size: 14px;
   }
+  #big-temp{
+    visibility: hidden;
+  }
+  #small-temp{
+    display: block;
+  }
+
 }
 
 @media screen and (max-width: 533px) {
