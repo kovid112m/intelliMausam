@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/intelliMausam/precache-manifest.e03a9cc7397fc203ecc7a0f927504ef3.js"
+  "/intelliMausam/precache-manifest.662d5b97966b0610c3b7acde58e33937.js"
 );
 
 self.addEventListener('message', (event) => {
