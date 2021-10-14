@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Navigation from './Components/Navigation';
 import Team from './Components/Team'
 import Weather from "./Components/Weather";
@@ -17,7 +17,7 @@ function App() {
         <Switch>
           <Route path="/about" component={() => <Team />} />    
           <Route path="/" component={() => <div className="container1"><Weather /></div>} />
-          <Redirect from='*' to='/' />
+          {/* <Redirect from='*' to='/' /> */}
         </Switch>
       </Router>
     </React.Fragment>
