@@ -12,4 +12,4 @@ intelliMausam studies various environmental parameters, generates a weather fore
 
 # Model Block Diagram
 
-![intelliMausam Block Diagram](https://github.com/kovid112m/intelliMausam/blob/main/intelliMausam%20Block%20Diagram.png)
+![intelliMausam Block Diagram](https://github.com/kovid112m/intelliMausam/blob/main/Readme%20Images/intelliMausam%20Block%20Diagram.png)
