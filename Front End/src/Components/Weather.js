@@ -118,7 +118,7 @@ class Weather extends React.Component {
     const data = await api_call.json();
     
     this.live();
-    // console.log(liveData);
+    console.log("hello ji");
     this.setState({
       lat: lat,
       lon: lon,

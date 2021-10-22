@@ -15,7 +15,7 @@ function Navigation(props) {
           height="30"
           className="d-inline-block align-top"
         />{' '}
-      intelliMausasm
+      intelliMausam
       </Navbar.Brand>
       <Nav className="ml-auto">
         <Nav.Link href={props.location.pathname === "/about" ? "#/" : "#/about"} style={ {color: `${
